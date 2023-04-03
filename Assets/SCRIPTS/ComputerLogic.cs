@@ -10,8 +10,8 @@ public class ComputerLogic : MonoBehaviour
 
     [SerializeField] private float Distance;
 
-    [SerializeField] private Text Money;
-    private float money = 0;
+    public Text Money;
+    public float money = 0;
     public bool usingComputer = false;
 
     [SerializeField] private Transform player;
