@@ -10,7 +10,7 @@ public class npcProximityScript : MonoBehaviour
     [SerializeField] private float Distance;
     [SerializeField] private int aboveInt;
     [SerializeField] private Transform player;
-    [SerializeField] private TextMeshProUGUI textNPC;
+    [SerializeField] private GameObject barStats;
     public bool npcInRange;
     // Start is called before the first frame update
     void Start()
@@ -33,13 +33,13 @@ public class npcProximityScript : MonoBehaviour
         if (npcInRange)
         {
             //popupObject.Transform.Y = 7;
-            textNPC.transform.position = transform.position + Vector3.up * aboveInt;
+            barStats.transform.position = transform.position + Vector3.up * aboveInt;
             //textNPC.text = "Fuck you";
         }
         else
         {
             //popupObject.Transform.Y = -7;
-            textNPC.transform.position = transform.position + Vector3.down * aboveInt;
+            barStats.transform.position = transform.position + Vector3.down * aboveInt;
             //textNPC.text = "Fuck you";
         }
     }
