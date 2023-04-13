@@ -7357,6 +7357,32 @@ PrefabInstance:
       objectReference: {fileID: 3234324026581284858}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a01d9ff3ad62e734c95bec1e720d7def, type: 3}
+--- !u!1 &1548736868 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3431731495911914793, guid: a01d9ff3ad62e734c95bec1e720d7def, type: 3}
+  m_PrefabInstance: {fileID: 1548736867}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1548736869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548736868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27615e5c388d1154c840fdce43afaa22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sanityBar: {fileID: 3234324025887945708}
+  hungerBar: {fileID: 3234324025481601042}
+  healthBar: {fileID: 3234324025605732797}
+  maxSanity: 100
+  currentSanity: 0
+  maxHunger: 100
+  currentHunger: 0
+  maxHealth: 100
+  currentHealth: 0
 --- !u!1001 &1554558117
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11315,6 +11341,32 @@ PrefabInstance:
       objectReference: {fileID: 7881911659203837810}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea93d6ea744b31642bb5c59ea2b44e2c, type: 3}
+--- !u!1 &2139922802 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1362024857428787167, guid: ea93d6ea744b31642bb5c59ea2b44e2c, type: 3}
+  m_PrefabInstance: {fileID: 2139922801}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2139922803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139922802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27615e5c388d1154c840fdce43afaa22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sanityBar: {fileID: 7881911658104787994}
+  hungerBar: {fileID: 7881911659755911188}
+  healthBar: {fileID: 7881911658128747508}
+  maxSanity: 100
+  currentSanity: 0
+  maxHunger: 100
+  currentHunger: 0
+  maxHealth: 100
+  currentHealth: 0
 --- !u!1 &2434335978555320942
 GameObject:
   m_ObjectHideFlags: 0
