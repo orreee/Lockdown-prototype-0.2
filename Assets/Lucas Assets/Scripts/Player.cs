@@ -19,14 +19,15 @@ public class Player : MonoBehaviour
     public float currentHealth;
 
     private const float coef = 6f;
-    
-    
-    
 
+    CharacterController cc;
+    public GameOverScript gameover;
     
     // Start is called before the first frame update
     void Start()
     {
+        cc = GetComponent<CharacterController>();
+
         currentSanity = maxSanity;
         sanityBar.SetMaxSanity(maxSanity);
 
@@ -48,5 +49,11 @@ public class Player : MonoBehaviour
         
         currentHealth -= 0.2f * coef * Time.deltaTime;
         healthBar.SetHealth(currentHealth);
+
+        if(currentSanity <= 0 || currentHealth <= 0 || currentHunger <= 0)
+        {
+            cc.gameObject.SetActive(false);
+            gameover.GameOver();
+        }
     }
 }
