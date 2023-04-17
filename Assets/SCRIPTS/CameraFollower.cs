@@ -1,28 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class CameraFollower : MonoBehaviour
-{
-    [SerializeField] private Transform target;
-
-    public float height; 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (target != null)
-        {
-            transform.position = target.position + Vector3.up * height;
-        }
-        
-
-
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7060494ac3575932e196492031300d6f5bfe52f17e6686a7bc5fa84c476b42fd
+size 523

@@ -1,23 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-
-public class HungerBar : MonoBehaviour
-{
-    public Slider slider;
-    public Gradient gradient;
-    public Image fill;
-
-    public void SetMaxHunger(float hunger)
-    {
-        slider.maxValue = hunger;
-        slider.value = hunger;
-        fill.color = gradient.Evaluate(1f);
-    }
-    public void SetHunger(float hunger)
-    {
-        slider.value = hunger;
-        fill.color = gradient.Evaluate(slider.normalizedValue);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b870774a24d8c25508c14024bdd6cc61c44e2a8461c147e47262f5b591b60c7
+size 559

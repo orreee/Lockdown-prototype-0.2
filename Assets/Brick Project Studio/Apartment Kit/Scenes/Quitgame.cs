@@ -1,24 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-namespace SojaExiles
-{
-    public class Quitgame : MonoBehaviour
-    {
-        // Start is called before the first frame update
-        void Start()
-        {
-        
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.Escape))
-            {
-                Application.Quit();
-            }
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d205bdfe8363fc94c1faeb80084ad99da2cdce3f9945041ecf6995edee07f66f
+size 488
