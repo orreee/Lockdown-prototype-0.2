@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 1037
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Inspector
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 150
+  controlID: 18
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 151
+  controlID: 84
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 152
+  controlID: 85
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -399,7 +399,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 136}
     m_SelectedIDs: 2e690000
     m_LastClickedID: 26926
-    m_ExpandedIDs: 00000000126900001469000016690000186900001a6900001c6900002c69000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000126900001469000016690000186900001a6900001c69000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -454,7 +454,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -519,7 +519,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 195
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -556,10 +556,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 94690000
-      m_LastClickedID: 0
-      m_ExpandedIDs: 20faffff
+      scrollPos: {x: 0, y: 208}
+      m_SelectedIDs: c25b0000
+      m_LastClickedID: 23490
+      m_ExpandedIDs: bcf9ffff20faffff305c0000e05d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -842,9 +842,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1007.8832, y: 134.40756, z: 70.809875}
+    m_Target: {x: 827.5428, y: 158.14034, z: 149.15857}
     speed: 2
-    m_Value: {x: 1007.8832, y: 134.40756, z: 70.809875}
+    m_Value: {x: 827.5428, y: 158.14034, z: 149.15857}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -891,9 +891,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0035667846, y: 0.9964252, z: -0.06257088, w: 0.057465415}
+    m_Target: {x: -0.02586568, y: 0.972694, z: -0.13331005, w: -0.1884703}
     speed: 2
-    m_Value: {x: 0.0035666183, y: 0.9963788, z: -0.062567964, w: 0.057462737}
+    m_Value: {x: -0.02586445, y: 0.9726477, z: -0.1333037, w: -0.18846133}
   m_Size:
     m_Target: 310.21744
     speed: 2
