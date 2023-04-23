@@ -1,0 +1,41 @@
+newmtl ProBuilder_Default_URP
+map_Kd GridBox_Default.png
+Kd 1.0 1.0 1.0
+d 1.0
+
+newmtl Wood_Floor_01
+map_Kd Wood Floor 01.png
+Kd 1 1 1
+d 1
+
+newmtl LivingRoomColor
+Kd 1 1 1
+d 1
+
+newmtl Wooden_Floor_4K_Roughness
+map_Kd Wooden Floor4_4K_Metalness.tga
+Kd 1 1 1
+d 1
+
+newmtl BR_Tile_02
+map_Kd MarbleWall_02.png
+Kd 1 1 1
+d 1
+
+newmtl GRY.3
+Kd 0.6 0.6039216 0.6274511
+d 1
+
+newmtl White_Wood
+map_Kd White Wood.png
+Kd 1 1 1
+d 1
+
+newmtl ChildColorBedroom
+Kd 0.6226414 0.3318796 0.4521443
+d 1
+
+newmtl AdultBedromColor
+Kd 1 1 1
+d 1
+
